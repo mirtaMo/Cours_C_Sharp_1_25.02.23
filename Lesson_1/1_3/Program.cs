@@ -1,21 +1,13 @@
-﻿
+﻿// 3_Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
+// 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
+// 2 -> " -2, -1, 0, 1, 2"
 
-else if (s_a == "5")
-{
-                    Console.WriteLine("пятница");
-}
+string s_a = Console.ReadLine();
+int a = int.Parse(s_a);
+int b = -a;
 
-else if (s_a == "6")
+while (b <= a)
 {
-                    Console.WriteLine("суббота");
-}
-
-else if (s_a == "7")
-{
-                    Console.WriteLine("ВС");
-}
-
-else
-{
-                    Console.WriteLine("ERR");
+                    Console.Write(b + " ");
+                    b++;
 }
