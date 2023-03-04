@@ -6,7 +6,6 @@
 
 int TakeNum(int num)
 {
-                    Console.WritLine(num);
                     int result1 = num % 10;
                     int result2 = num / 10;
                     if (resolt1 > result2) ;
